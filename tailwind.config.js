@@ -4,6 +4,7 @@ module.exports = {
             fontSize: {
                 '7xl': '5rem',
                 '8xl': '6rem',
+                'landing-md': '10rem',
                 'landing-lg': '15.875rem',
             },
             fontFamily: {
@@ -28,7 +29,9 @@ module.exports = {
                 '38': '38%',
                 '-14': '-14%',
                 '-30': '-30%',
+                '-32': '-32%',
                 '-50': '-50%',
+                '-80': '-80%',
             },
             padding: {
                 '50': '50%',
