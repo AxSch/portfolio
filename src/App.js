@@ -4,17 +4,17 @@ import menuIcon from './assets/icons/menuIcon.svg'
 function App() {
   return (
     <div className="flex container text-white mx-auto flex-wrap relative">
-      <div className="flex flex-row items-start m-6 w-full md:hidden">
+      <div className="flex flex-row items-start m-6 w-full sm:hidden">
         <img src={menuIcon} alt='mobile menu' />
       </div>
-      <div className="flex flex-row text-8xl flex-wrap font-sans z-10 justify-center md:text-landing-md">
+      <div className="flex flex-row text-9xl flex-wrap font-sans z-10 justify-center sm:text-landing-md">
         <h1 className="">
-          _.ASTE
+          *.ASTE
           </h1>
-        <h1 className="ml-20 md:ml-40">
+        <h1 className="ml-20 sm:ml-40">
           RISK
         </h1>
-        <div className="hidden md:flex md:flex-row md:text-4xl font-san">
+        <div className="hidden sm:flex sm:flex-row sm:text-4xl font-san">
           <span className="mr-6">PORTFOLIO</span>
           <span className="mr-6">ABOUT</span>
           <span>SOCIAL</span>
@@ -24,14 +24,14 @@ function App() {
         <div className="w-full h-0 left-0 absolute pb-53">
           <iframe
             title="mainpage"
-            className="border-0 -top-30 -right-14 w-full h-full absolute md:-top-80 md:-right-32"
+            className="border-0 -top-30 -right-14 w-full h-full absolute sm:-top-80 sm:-right-32"
             src="//cdn.iframe.ly/NfuhZxz?media=1"
             allow="encrypted-media *">
           </iframe>
         </div>
       </div>
       <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-      <div className="z-10 mt-16">
+      <div className="z-10 mt-16 sm:mt-12">
         <div className="flex flex-row justify-center font-san text-4xl">
           <h3 className="">WELCOME</h3>
         </div>
