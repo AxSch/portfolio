@@ -7,24 +7,24 @@ function App() {
       <div className="flex flex-row items-start m-6 w-full md:hidden">
         <img src={menuIcon} alt='mobile menu' />
       </div>
-      <div className="flex flex-row text-8xl flex-wrap font-sans z-10 justify-center">
+      <div className="flex flex-row text-8xl flex-wrap font-sans z-10 justify-center md:text-landing-md">
         <h1 className="">
           _.ASTE
           </h1>
-        <h1 className="ml-20">
+        <h1 className="ml-20 md:ml-40">
           RISK
         </h1>
-        <div className="hidden">
-          <span className="">Portfolio</span>
-          <span className="">About</span>
-          <span>Social</span>
+        <div className="hidden md:flex md:flex-row md:text-4xl font-san">
+          <span className="mr-6">PORTFOLIO</span>
+          <span className="mr-6">ABOUT</span>
+          <span>SOCIAL</span>
         </div>
       </div>
       <div>
         <div className="w-full h-0 left-0 absolute pb-53">
           <iframe
             title="mainpage"
-            className="border-0 -top-30 -right-14 w-full h-full absolute"
+            className="border-0 -top-30 -right-14 w-full h-full absolute md:-top-80 md:-right-32"
             src="//cdn.iframe.ly/NfuhZxz?media=1"
             allow="encrypted-media *">
           </iframe>
@@ -32,8 +32,8 @@ function App() {
       </div>
       <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
       <div className="z-10 mt-16">
-        <div className="flex flex-row justify-center font-sans text-4xl">
-          <h3 className="">Welcome</h3>
+        <div className="flex flex-row justify-center font-san text-4xl">
+          <h3 className="">WELCOME</h3>
         </div>
         <div className="flex flex-row justify-center font-sans-serif px-6 py-2">
           <p>
