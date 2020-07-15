@@ -4,6 +4,7 @@ module.exports = {
             fontSize: {
                 '7xl': '5rem',
                 '8xl': '6rem',
+                '9xl': '7rem',
                 'landing-md': '10rem',
                 'landing-lg': '15.875rem',
             },
